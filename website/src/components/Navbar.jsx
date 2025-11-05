@@ -9,7 +9,7 @@ export default function Navbar(){
   
   return (
     <nav className="bg-primary text-white fixed w-full top-0 z-40 shadow-lg">
-      <div className="container mx-auto flex items-center justify-between h-16 px-4">
+      <div className="container mx-auto flex items-center justify-between h-16 px-6 max-w-7xl">
         <Link to="/" className="flex items-center gap-3">
           <Logo size={40} />
           <div className="font-semibold text-lg">BioMed4Youth</div>

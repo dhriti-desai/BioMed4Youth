@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function Hero(){
   return (
-    <section id="home" className="pt-24">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section id="home" className="pt-24 px-4">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-primary leading-tight">
             Empowering the next generation of biomedical leaders
